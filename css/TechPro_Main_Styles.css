@@ -1,0 +1,740 @@
+body
+{
+	margin:0;
+	padding:0;}
+
+.Product_Display_Container_JP #techProReview_2,
+.Product_Display_Container_JP #techProReview_3,
+.Product_Display_Container_JP #techProReview_4,
+.Product_Display_Container_JP #techProReview_5,
+.Product_Display_Container_JP #techProinfo_2,
+.Product_Display_Container_JP #techProinfo_3,
+.Product_Display_Container_JP #techProinfo_4,
+.Product_Display_Container_JP #techProinfo_5
+{
+	display:none;
+	}
+	
+.Product_Display_Container_JP  .slideshow
+{
+	display:block;
+	width:100%;
+	height:205px;
+	position:relative;
+	float:left;
+	border-bottom: 2px solid #CCCCCC;
+	}
+	
+.Product_Display_Container_JP dark
+{
+font-size:18px;
+color:#333333;
+font-weight:900;
+display:block;
+}
+
+.Product_Display_Container_JP .halfWidthBox_phones dark
+{
+	margin-top:10px}
+	
+.Product_Display_Container_JP  #information_jp
+{
+	display:block;
+	height:120px;
+	position:relative;
+	float:left;
+	border-bottom: 2px solid #CCCCCC;
+	overflow:hidden;
+	}
+	
+.Product_Display_Container_JP .fullWidthBox_info
+{
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	border-bottom: 2px solid #CCCCCC;}
+	
+.Product_Display_Container_JP h1
+{
+	font-size:22px;
+	color:#000000;
+	font-weight:900;
+	margin:10px 0px 5px 0px;}
+	
+.Product_Display_Container_JP h4
+{
+	font-size:14px;
+	color:#000000;
+	font-weight:900;
+	margin:5px 0px 10px 0px;}
+
+.Product_Display_Container_JP p
+{
+	line-height:normal;
+	padding:0px;
+	margin:0px;}
+	
+.Product_Display_Container_JP .fifthWidthBox .imageTop_jp:hover
+{
+	cursor:pointer;
+	opacity:0.5;}
+
+@media (max-width:479px)
+{
+
+.Product_Display_Container_JP
+{
+position:relative;
+width: 310px;
+height:2667px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+display:block;
+padding:0;
+margin:0px auto;
+}
+
+.Product_Display_Container_JP  #information_jp
+{
+	display:block;
+	height:140px;
+	position:relative;
+	float:left;
+	border-bottom: 2px solid #CCCCCC;
+	overflow:hidden;
+	}
+
+
+/*Full Width Box that shifts depending on size*/
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_Maininfo_jp
+{
+position:relative;
+display:block;
+width:280px;
+padding:0px ;
+text-align:center;
+font-size:14px;
+margin-left:15px;
+margin-top:25px;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_Maininfo_jp dark
+{
+font-size:16px;
+}
+
+.Product_Display_Container_JP .fifthWidthBox
+{
+width:62px;
+height:70px;
+position:relative;
+display:block;
+float:left;
+}
+.Product_Display_Container_JP .fifthWidthBox pointer_jp
+{
+	display:block;
+	font-size:20px;
+	text-align:center;
+	width:62px;
+	position:absolute;
+	top:65px;
+	}
+.Product_Display_Container_JP .fifthWidthBox .imageTop_jp
+{
+	height:auto;
+	width:55px;
+	display:block;
+	margin:0px auto 0px auto;
+	}
+
+.Product_Display_Container_JP .fullWidthBox
+{
+width:310px;
+height:205px;
+position:relative;
+display:block;
+float:left;
+}
+	
+.Product_Display_Container_JP .fullWidthBox .featuredItem_image_jp
+{
+	height:auto;
+	width:300px;
+	display:block;
+	margin:15px auto 0px auto;}
+
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp dark
+{
+display:block;
+width:280px;
+margin:0px;
+padding:5px 0px 0px 0px;
+font-size:18px;
+text-align:right;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp light
+{
+display:block;
+width:280px;
+margin:0px;
+padding:0px;
+font-size:14px;
+text-align:right;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp
+{
+position:relative;
+display:block;
+width:280px;
+padding:0px ;
+text-align:center;
+font-size:14px;
+padding-left:15px;
+margin-top:20px;
+}
+
+.Product_Display_Container_JP .halfWidthBox_phones
+{
+width:155px;
+height:150px;
+border-bottom:2px solid #CCCCCC;
+position:relative;
+display:block;
+float:left;
+overflow:hidden;
+}
+
+.Product_Display_Container_JP .halfWidthBox_phones dark
+{
+	font-size:16px;}
+	
+.Product_Display_Container_JP .halfWidthBox_phones .featuredItem_image_jp
+{
+	height:auto;
+	width:150px;
+	display:block;
+	margin:0px auto 0px auto;}
+
+/*Half and 1/3 Width Box that shifts depending on size*/
+.Product_Display_Container_JP .thirdWidthBox,
+.Product_Display_Container_JP .halfWidthBox
+{
+width:310px;
+height:	auto;
+border-bottom:2px solid #CCCCCC;
+position:relative;
+display:block;
+float:left;
+}
+	
+.Product_Display_Container_JP .thirdWidthBox .featuredItem_image_jp,	
+.Product_Display_Container_JP .halfWidthBox .featuredItem_image_jp
+{ 
+	width:310px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	}
+	
+.Product_Display_Container_JP .halfWidthBox .logo_image_jp
+{
+	width:250px;
+	height:auto;
+	display:block;
+	margin:0px auto 0px auto;
+	}
+
+.Product_Display_Container_JP .thirdWidthBox #halfWidthBox_info_jp dark,
+.Product_Display_Container_JP .halfWidthBox #halfWidthBox_info_jp dark
+{
+display:block;
+width:300px;
+margin:10px 0px 10px 0px;
+padding:0px;
+font-size:18px;
+}
+
+.Product_Display_Container_JP .thirdWidthBox #halfWidthBox_info_jp,
+.Product_Display_Container_JP .halfWidthBox #halfWidthBox_info_jp
+{
+position:relative;
+display:block;
+width:290px;
+padding:0px 0px 0px 10px;
+line-height:20px;
+font-size:14px;
+}
+	
+.Product_Display_Container_JP .informationalBox
+{
+	width: 310px;
+	height:190px;
+	display:block;
+	float:left;
+	border-bottom:2px solid #CCCCCC;  
+	
+	}
+	
+.Product_Display_Container_JP .informationalBox img
+{
+	width:290px;
+	height:auto;
+	display:block;
+	margin:0px auto 0px auto;}
+
+.Product_Display_Container_JP .informationalBox li
+{
+	width:290px;
+	line-height:18px;
+	list-style:square;
+	padding-top:8px;
+	padding-left:10px;}
+	
+.Product_Display_Container_JP #exception_jp
+{
+	border-bottom:none;
+	height:110px;}
+
+.Product_Display_Container_JP .informationalBox dark
+{
+	display:block;
+	width:310px;
+	margin:0px;
+	padding:0px;
+	padding-top:15px;
+	font-size:24px;
+text-align:center;}
+}
+	
+@media (min-width:480px) and (max-width:999px)
+{	
+.Product_Display_Container_JP
+{
+position:relative;
+width: 470px;
+height:2230px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+display:block;
+padding:0;
+margin: 0px auto;
+}
+	
+/*Full Width Box that shifts depending on size*/
+.Product_Display_Container_JP .fullWidthBox
+{
+width:470px;
+height:200px;
+position:relative;
+display:block;
+float:left;
+}
+	
+.Product_Display_Container_JP .fullWidthBox .featuredItem_image_jp
+{
+	height:auto;
+	width:300px;
+	display:block;
+	margin:15px auto 0px auto;}
+
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp dark
+{
+display:block;
+width:440px;
+margin:0px;
+padding:10px 0px 0px 0px;
+font-size:18px;
+text-align:right;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp light
+{
+display:block;
+width:440px;
+margin:0px;
+padding:0px;
+font-size:14px;
+text-align:right;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp
+{
+position:relative;
+display:block;
+width:454px;
+padding:0px ;
+text-align:center;
+font-size:14px;
+margin-left:8px;
+margin-top:20px;
+}
+
+.Product_Display_Container_JP .halfWidthBox_phones
+{
+width:156.666666666666666666666666666666666666666666666666666px;
+height:150px;
+border-bottom:2px solid #CCCCCC;
+position:relative;
+display:block;
+float:left;
+overflow:hidden;
+}
+	
+.Product_Display_Container_JP .halfWidthBox_phones dark
+{
+	font-size:16px;}	
+	
+.Product_Display_Container_JP .halfWidthBox_phones .featuredItem_image_jp
+{
+	height:auto;
+	width:150px;
+	display:block;
+	margin:0px auto 0px auto;}
+	
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_Maininfo_jp
+{
+position:relative;
+display:block;
+width:430px;
+padding:0px ;
+text-align:center;
+font-size:14px;
+margin-left:20px;
+margin-top:25px;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_Maininfo_jp dark
+{
+font-size:18px;
+}
+
+.Product_Display_Container_JP .fifthWidthBox
+{
+width:94px;
+height:110px;
+position:relative;
+display:block;
+float:left;
+}
+.Product_Display_Container_JP .fifthWidthBox pointer_jp
+{
+	display:block;
+	font-size:20px;
+	text-align:center;
+	width:94px;
+	position:absolute;
+	top:100px;
+	}
+.Product_Display_Container_JP .fifthWidthBox .imageTop_jp
+{
+	height:auto;
+	width:80px;
+	display:block;
+	margin:0px auto 0px auto;
+	}	
+
+/*Half and 1/3 Width Box that shifts depending on size*/
+.Product_Display_Container_JP .thirdWidthBox,
+.Product_Display_Container_JP .halfWidthBox
+{
+width:470px;
+height:	auto;
+border-bottom:2px solid #CCCCCC;
+position:relative;
+display:block;
+float:left;
+}
+
+	
+.Product_Display_Container_JP .thirdWidthBox .featuredItem_image_jp,	
+.Product_Display_Container_JP .halfWidthBox .featuredItem_image_jp
+{ 
+	width:400px;
+	float:left;
+	padding:0px;
+	display:block;
+	margin: 0px 0px 0px 70px;
+	}
+	
+.Product_Display_Container_JP .halfWidthBox .logo_image_jp
+{
+	width:280px;
+	height:auto;
+	display:block;
+	margin:0px auto 0px auto;
+	}
+
+.Product_Display_Container_JP .thirdWidthBox #thirdWidthBox_info_jp dark,
+.Product_Display_Container_JP .halfWidthBox #halfWidthBox_info_jp dark
+{
+display:block;
+margin:10px 0px 10px 0px;
+padding:0px;
+font-size:22px;
+}
+.Product_Display_Container_JP .thirdWidthBox #thirdWidthBox_info_jp,
+.Product_Display_Container_JP .halfWidthBox #halfWidthBox_info_jp
+{
+position:relative;
+display:block;
+width:440px;
+padding-left:10px;
+line-height:20px;
+font-size:14px;
+}
+
+.Product_Display_Container_JP .informationalBox
+{
+	width: 470px;
+	height:140px;
+	display:block;
+	float:left;
+	border-bottom:2px solid #CCCCCC;  
+	
+	}
+	
+.Product_Display_Container_JP .informationalBox img
+{
+	width:450px;
+	height:auto;
+	display:block;
+	margin:0px auto 0px auto;}
+
+.Product_Display_Container_JP .informationalBox li
+{
+	width:430px;
+	line-height:18px;
+	list-style:square;
+	padding-top:8px;
+	padding-left:20px;}
+	
+.Product_Display_Container_JP #exception_jp
+{
+	border-bottom:none;}
+
+.Product_Display_Container_JP .informationalBox dark
+{
+	display:block;
+	width:470px;
+	margin:0px;
+	padding:0px;
+	padding-top:15px;
+	font-size:24px;
+	text-align:center;}
+}			
+	@media (min-width:1000px) 
+{	
+	.Product_Display_Container_JP
+{
+position:relative;
+width: 1000px;
+height:1740px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+display:block;
+padding:0;
+margin:0px auto 0px auto;
+}
+
+/*Full Width Box that shifts depending on size*/
+.Product_Display_Container_JP .fullWidthBox
+{
+width:1000px;
+height:150px;
+position:relative;
+display:block;
+
+}
+	
+.Product_Display_Container_JP .fullWidthBox .featuredItem_image_jp
+{
+	height:auto;
+	width:300px;
+	display:block;
+	margin:15px auto 0px auto;}
+
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp dark
+{
+	
+display:block;
+width:1000px;
+margin:0px 0px 0px -200px;
+padding:0px;
+font-size:18px;
+text-align:right;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp light
+{
+display:block;
+width:1000px;
+margin:0px 0px 0px -200px;
+padding:0px;
+font-size:14px;
+text-align:right;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_info_jp
+{
+position:relative;
+display:block;
+width:900px;
+padding:0px ;
+text-align:center;
+font-size:20px;
+font-style:italic;
+margin-left:50px;
+margin-top:20px;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_Maininfo_jp
+{
+position:relative;
+display:block;
+width:950px;
+padding:0px ;
+text-align:center;
+font-size:16px;
+margin-left:25px;
+margin-top:25px;
+}
+
+.Product_Display_Container_JP .fullWidthBox #fullWidthBox_Maininfo_jp dark
+{
+font-size:24px;
+margin-bottom:5px;
+}
+
+.Product_Display_Container_JP .fifthWidthBox
+{
+width:200px;
+height:110px;
+position:relative;
+display:block;
+float:left;
+}
+.Product_Display_Container_JP .fifthWidthBox pointer_jp
+{
+	display:block;
+	font-size:20px;
+	text-align:center;
+	width:200px;
+	position:absolute;
+	top:100px;
+	}
+.Product_Display_Container_JP .fifthWidthBox .imageTop_jp
+{
+	height:auto;
+	width:80px;
+	display:block;
+	margin:0px auto 0px auto;
+	}
+
+.Product_Display_Container_JP .fifthWidthBox #fifthWidthBox_info_jp
+{
+position:relative;
+display:block;
+width:200px;
+padding:0px ;
+text-align:center;
+font-size:16px;
+font-style:italic;
+margin:0px;
+}
+
+.Product_Display_Container_JP .halfWidthBox_phones
+{
+width:250px;
+height:150px;
+border-bottom:2px solid #CCCCCC;
+position:relative;
+display:block;
+float:left;
+overflow:hidden;
+}
+	
+.Product_Display_Container_JP .halfWidthBox_phones .featuredItem_image_jp
+{
+	height:auto;
+	width:200px;
+	display:block;
+	margin:0px auto 0px auto;}
+
+/*Half Width Box that shifts depending on size*/
+.Product_Display_Container_JP .halfWidthBox
+{
+width:500px;
+height:280px;
+border-bottom:2px solid #CCCCCC;
+position:relative;
+display:block;
+float:left;
+}
+	
+.Product_Display_Container_JP .halfWidthBox .featuredItem_image_jp
+{
+	height:280px;
+	width:auto;
+	display:block;
+	margin:0px auto 0px auto;}
+
+.Product_Display_Container_JP .halfWidthBox .logo_image_jp
+{
+	width:300px;
+	height:auto;
+	display:block;
+	margin:0px auto 0px auto;
+	padding-bottom:30px;
+	}
+
+.Product_Display_Container_JP .halfWidthBox #halfWidthBox_info_jp
+{
+position:relative;
+display:block;
+width:400px;
+padding:0px 0px 0px 50px;
+line-height:20px;
+}
+
+.Product_Display_Container_JP .informationalBox
+{
+	width: 500px;
+	height:150px;
+	display:block;
+	float:left;
+	border-bottom:2px solid #CCCCCC;  
+	
+	}
+	
+.Product_Display_Container_JP .informationalBox img
+{
+	width:400px;
+	height:auto;
+	display:block;
+	margin:0px auto 0px auto;}
+
+.Product_Display_Container_JP .informationalBox li
+{
+	width:400px;
+	line-height:20px;
+	list-style:square;
+	padding-top:10px;}
+
+.Product_Display_Container_JP .informationalBox dark
+{
+	display:block;
+	width:500px;
+	margin:0px;
+	padding:0px;
+	padding-top:15px;
+	font-size:24px;
+	text-align:center;}
+}
