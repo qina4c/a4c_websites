@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD']!=='POST') {
 		  $content.= "\n\nMessage:\n";
 		  $content.= $message;
 		  // send mail
-		  mail("Qin@all4cellular.com",$subject,$message,"From: $from\n");
+		  mail("Qin@all4cellular.com",$subject,$content,"From: $from\n");
 		  ?>
 		  <div id="inner-container" class="basic-grey">
           	<button id="contact-form-close-button">x</button>
